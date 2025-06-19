@@ -1,3 +1,4 @@
+
 public class DecoratorPatternTest {
     public static void main(String[] args) {
         // Base Notifier
@@ -9,5 +10,6 @@ public class DecoratorPatternTest {
 
         System.out.println("Notification via Email, SMS, and Slack:");
         multiChannelNotifier.send("System update scheduled at 2 AM.");
+
     }
 }
